@@ -1,0 +1,6 @@
+nyt-metadata.csv.zip
+env.py
+.ipynb_checkpoints
+chromadb
+__pycache__
+.env

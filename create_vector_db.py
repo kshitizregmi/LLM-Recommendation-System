@@ -2,9 +2,6 @@ import pandas as pd
 import chromadb
 from llm import Palm2API
 
-# Load the "Vertex AI Embeddings for Text" model
-from vertexai.preview.language_models import TextEmbeddingModel
-
 # Load the dataset
 df = pd.read_csv('nyt-metadata.csv', nrows=5000, na_values=['[]', "", " "])
 

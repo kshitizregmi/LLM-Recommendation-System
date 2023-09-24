@@ -4,3 +4,4 @@ env.py
 chromadb
 __pycache__
 .env
+nyt-metadata.csv
